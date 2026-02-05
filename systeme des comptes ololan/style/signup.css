@@ -1,0 +1,432 @@
+html {
+    height: max-content;
+    width: 100%;
+    min-width: 100px;
+    min-height: 100px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', gadudi, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    height: max-content;
+    width: 100%;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    max-height: max-content;
+    min-height: fit-content;
+    width: 100%;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    background-color: #f9f9fb;
+    border-bottom: 1px solid #efeff1;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.companyLogo {
+    height: 52px;
+    width: 96px;
+}
+
+.iMenuContainer {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.itemMenu,
+.fitemMenu {
+    text-decoration: none;
+    color: #606060;
+    transition: color 0.11s linear;
+}
+
+.itemMenu:hover,
+.fitemMenu:hover {
+    color: #dd9067;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 500px;
+    max-height: max-content;
+    width: 100%;
+    background-color: #f9f9fb;
+    border-top: 1px solid #efeff1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#fMenuArea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    height: max-content;
+    width: 50%;
+}
+
+.footerMenu {
+    box-sizing: border-box;
+    height: 100%;
+    width: max-content;
+}
+
+.fiMenuTitle {
+    height: fit-content;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.fiMenuContainer {
+    margin-top: 5px;
+}
+
+#companyArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 70px;
+    width: 50%;
+    padding-top: 20px;
+    border-top: 1px solid #e8e8ea;
+}
+
+#copyRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: max-content;
+    width: fit-content;
+    color: #b6b6b6;
+    font-size: 14px;
+}
+
+.social {
+    height: 32px;
+    width: 32px;
+    box-sizing: border-box;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: fit-content;
+    width: auto;
+    min-width: fit-content;
+}
+
+#paperDoc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: fit-content;
+    width: 32%;
+    min-width: 400px;
+    height: 825px;
+    border: 1px solid #dedee1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #d7d7d9;
+    background-color: #fbfbfd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#logoTitle {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 90px;
+    width: 90px;
+    margin-right: 5px;
+}
+
+#title {
+    height: 32px;
+    width: fit-content;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-left: 5px;
+    color: #656565;
+}
+
+form {
+    height: 86%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formField {
+    height: 40px;
+    width: 80%;
+}
+
+.fieldLabel {
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #dedee1;
+    box-shadow: 1px 1px 2px #d7d7d9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+}
+
+.container:focus-within,
+.container:focus-within:hover,
+.containerB:focus-within,
+.containerB:focus-within:hover {
+    border: 2px solid #68e7f0;
+    box-shadow: 1px 1px 2px #e9e9eb;
+    padding-left: 4px;
+    padding-right: 0px;
+    padding-top: 0px;
+    transition: border-color .11s linear;
+}
+
+.container:hover,
+.containerB:hover {
+    border: 1px solid #68e7f0;
+    transition: border-color .11s linear;
+}
+
+.inputField,
+.inputFieldB {
+    background-color: transparent;
+    color: #404040;
+    height: 36px;
+    width: 96.5%;
+    margin-left: 3px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    border-radius: 4px;
+}
+
+.inputField:focus,
+.inputFieldB:focus {
+    color: #404040;
+}
+
+.inputField,
+.inputFieldB {
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.inputField,
+.inputField::placeholder,
+.inputFieldB {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Segoe UI', gadudi, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputField::placeholder {
+    color: #b6b6b6;
+}
+
+.containerB {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 40px;
+    width: 50%;
+    border: 1px solid #dedee1;
+    box-shadow: 1px 1px 2px #d7d7d9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+}
+
+#clickSpace,
+#containerField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 44px;
+    width: 80%;
+}
+
+.captcha {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 38%;
+    min-width: fit-content;
+    border: 1px solid #dd9067;
+    border-radius: 4px;
+    background-color: #dd9067;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 4px;
+}
+
+#containerFieldB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 44px;
+    width: 100%;
+}
+
+.checkBx {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-left: 3px;
+}
+
+.checkBx .checkBInput {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 28px;
+    width: 28px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #dedee1;
+    box-shadow: 1px 1px 2px #d7d7d9;
+}
+
+.checkBx:hover .checkBInput~.checkmark {
+    background-color: white;
+}
+
+.checkBx .checkBInput:checked~.checkmark {
+    background-color: #56bcc5;
+}
+
+.checkmark:after {
+    content: "";
+    display: none;
+    position: absolute;
+}
+
+.checkBx .checkBInput:checked~.checkmark:after {
+    display: block;
+}
+
+.checkBx .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#signupButton {
+    height: 40px;
+    width: 120px;
+    min-width: min-content;
+    border: 1px solid #56bcc5;
+    border-radius: 4px;
+    background-color: #56bcc5;
+    color: white;
+    font-size: 16px;
+    transition: all .11s linear;
+}
+
+#captchaButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+    background-color: #b6b6b6;
+    color: white;
+    font-size: 16px;
+    transition: all .11s linear;
+}
+
+#signupButton:hover {
+    background-color: #499da5;
+    border: 1px solid #499da5;
+}
+
+#signupButton:active {
+    background-color: #3f858b;
+    border: 1px solid #3f858b;
+}
+
+#captchaButton:hover {
+    background-color: #a6a6a6;
+    border: 1px solid #a6a6a6;
+}
+
+#captchaButton:active {
+    background-color: #969696;
+    border: 1px solid #969696;
+}
